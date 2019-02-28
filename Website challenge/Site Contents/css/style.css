@@ -72,6 +72,7 @@ body {
   background-color: #5b5a58;
   margin: 10px;
   width: 98%;
+  height: 100%;
 
   /*display: inline-block;*/
 }
@@ -98,5 +99,20 @@ body {
 }
 
 .ticket-content {
+  color: white;
+  padding: 15px;
+  background-color: #5b5a58;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+
+.author-content {
+  padding: 15px;
+  background-color: #5b5a58;
+  border-radu
+}
+
+.basran {
 
 }
