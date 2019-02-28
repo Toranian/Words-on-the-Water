@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  background-color: #41403e;
+  /*background-image: linear-gradient(45deg, #0F2027, #2C5364)*/
+}
+
+.background-image {
+  background-image: url("../img/Extras/book_shelf.jpg");
+  z-index: -1;
+  /*position: fixed;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  /*opacity: 0.75;*/
+}
+
+#background-title {
+  color: white;
+  font-size: 37px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#nav-ul {
+  list-style-type: none;
+  background: #41403e;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav-list-first {
+  background: #ef2852;
+  padding: 15px;
+  color: #e5dccc;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+}
+
+#nav-list-first:hover {
+  background: #e1274f;
+  transition-duration: 0.5s;
+}
+
+
+.nav-list {
+  float: left;
+  display: inline;
+  background-color: #41403e;
+  padding: 15px;
+  color: #e5dccc;
+  transition-duration: 0.5s;
+}
+
+.nav-list:hover {
+  background-color: #5b5a58;
+  transition-duration: 0.5s;
+}
+
+.location {
+  /*overflow: hidden;*/
+  float: left;
+  border-radius: 15px;
+  background-color: #5b5a58;
+  margin: 10px;
+  width: 98%;
+
+  /*display: inline-block;*/
+}
+
+#mhc-image {
+  float: left;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#location-details {
+  margin: 0px;
+  color: white;
+}
+
+.about {
+  float: right;
+  background-color: #5b5a58;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+
+}
+
+.ticket-content {
+
+}
