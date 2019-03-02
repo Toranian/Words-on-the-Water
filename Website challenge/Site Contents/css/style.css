@@ -10,6 +10,15 @@ body {
   /*background-image: linear-gradient(45deg, #0F2027, #2C5364)*/
 }
 
+p {
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .background-image {
   background-image: url("../img/Extras/book_shelf.jpg");
   z-index: -1;
@@ -18,14 +27,19 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  /*opacity: 0.75;*/
 }
+
 
 #background-title {
   color: white;
-  font-size: 37px;
-  text-align: center;
-  vertical-align: center;
+  font-size: 47px;
+  /* text-align: center; */
+  /* margin-left: 10%; */
+  /* vertical-align: middle; */
+  /* height: 100%; */
+  top: 20%;
+  position: absolute;
+  /* z-index: -1; */
 }
 
 #nav-ul {
@@ -34,6 +48,10 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
 }
 
 #nav-list-first {
@@ -88,17 +106,22 @@ body {
   color: white;
 }
 
-.about {
-  float: right;
+#about {
+  /* float: right; */
   background-color: #5b5a58;
-  margin: 10px;
+  margin: 20px 10px 10px 10px;
   padding: 15px;
   border-radius: 15px;
   color: white;
+}
+
+.title {
+  padding-bottom: 15px;
+  text-align: center;
 
 }
 
-.ticket-content {
+#ticket {
   color: white;
   padding: 15px;
   background-color: #5b5a58;
@@ -106,11 +129,14 @@ body {
   margin: 10px;
 }
 
+.ticket-list {
+  padding: 15px;
+}
 
 .author-content {
   padding: 15px;
   background-color: #5b5a58;
-  border-radu
+  border-radius: 15px;
 }
 
 .basran {
