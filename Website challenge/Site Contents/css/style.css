@@ -133,12 +133,14 @@ a {
   padding: 15px;
 }
 
-.author-content {
+#author-content {
   padding: 15px;
   background-color: #5b5a58;
   border-radius: 15px;
 }
 
-.basran {
-
+#basran:hover {
+  transition-duration: 0.5s;
+  opacity: 0.75;
+  
 }
