@@ -3,6 +3,5 @@ function author_details(name) {
         document.getElementById("author-details").innerHTML = "Basran is cool I guess"
     }
 
-    console.log("Penis");
-
+    
 }
