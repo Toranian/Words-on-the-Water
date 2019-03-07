@@ -31,7 +31,7 @@ a {
 
 
 #background-title {
-  color: white;
+  color: #ffffff;
   font-size: 57px;
   text-align: center;
   /*margin: 5%;*/
@@ -143,12 +143,14 @@ a {
 }
 
 #author-name {
-  position: relative;
+  position: absolute;
   text-align: center;
   vertical-align: middle;
   color: white;
   top: 20px;
   left: 20px;
+  width: 100%;
+
 }
 
 #basran {
