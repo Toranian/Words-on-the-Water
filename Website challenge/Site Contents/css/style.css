@@ -32,13 +32,15 @@ a {
 
 #background-title {
   color: white;
-  font-size: 47px;
-  /* text-align: center; */
-  /* margin-left: 10%; */
-  /* vertical-align: middle; */
+  font-size: 57px;
+  text-align: center;
+  /*margin: 5%;*/
+   vertical-align: middle;
   /* height: 100%; */
   top: 20%;
   position: absolute;
+  width: 100%;
+  /*background-color: black;*/
   /* z-index: -1; */
 }
 
@@ -137,10 +139,11 @@ a {
   padding: 15px;
   background-color: #5b5a58;
   border-radius: 15px;
+  margin: 10px;
 }
 
 #author-name {
-  position: absolute;
+  position: relative;
   text-align: center;
   vertical-align: middle;
   color: white;
